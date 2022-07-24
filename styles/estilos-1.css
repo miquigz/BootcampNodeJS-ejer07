@@ -79,7 +79,8 @@ section>button:hover{
     background-color:#e96093;
 }
 
-h1{
+h1>a{
+    text-decoration: none;
     color:white;
     font-weight: bold;
     font-size: 48px;
@@ -108,31 +109,14 @@ footer {
     align-self: center;
 }
 
-.tituloMario{
-    color:white;
-    font-weight: bold;
-    font-size: 48px;
-    text-decoration: none;
-}
-
-.marioImg3{
-    margin-bottom: 5px;
-    margin-top: 5px;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-}
-
-.marioImg4{
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-    height: 55vh;
-    width: 55%;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    align-self: center;
-    border-radius: 10px;
-}
-
 .marioUl{
     list-style-image: url(/img/estrellitaMarioV2.png);
+    margin:20px;
+    padding-left: 100px;
+}
+
+.mortalUl{
+    list-style-image: url(/img/logoMortal-2.png);
     margin:20px;
     padding-left: 100px;
 }
