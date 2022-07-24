@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Rubik+Moonrocks&display=swap');
+
+* {
+    font-family: 'Cormorant SC', serif;
+}
+
+body{
+    background: rgb(51,21,78);
+    background: linear-gradient(0deg, rgba(51,21,78,1) 0%, rgba(98,80,115,1) 20%, rgba(118,99,136,1) 61%, rgba(145,120,173,1) 100%);
+}
+
+nav{
+    background-color: rgba(35, 30, 41, 0.356);
+    display: flex;
+    margin: 0px 25px;
+    border-radius: 15px 15px 10px 10px;
+    justify-content: flex-end;
+    text-shadow: 2px 4px 6px #fff, 2px 4px 6px #fff, 2px 4px 6px #fff, 2px 4px 6px #fff;
+    padding:3px;
+    box-shadow: 6px 8px 35px 0 rgb(255, 255, 255);
+}
+
+nav>h1{
+    transition: 2s;
+    padding: 0px 20px;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: xx-large;
+    letter-spacing: 20px;
+}
+
+article{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+article>h2{
+    transition: 2.5s;
+    border-radius: 5px;
+    order:-1;
+    z-index: 50;
+    align-self: flex-start;
+    background-color: rgba(72, 26, 75, 0.459);
+    transform: rotate(-30deg);
+    color: white;
+    font-weight: normal;
+    font-size: 4vh;
+    padding: 1vh 6vh;
+    margin-bottom:-200px;
+    font-family: 'Rubik Moonrocks', cursive;
+    box-shadow: 6px 8px 35px 0 rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+section{
+    box-shadow: 4px 6px 15px 0 rgba(255, 255, 255, 0.267);
+    margin-top: 2%;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(27, 25, 25);
+    background-image: url(../img/fondo2.jpg);
+    background-repeat: repeat-y;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: 10px double #6e828f;
+    border-radius: 5px 20px 5px 20px;
+}
+
+section>div{
+    display: flex;
+    align-self: center;
+    margin-bottom: -75px;
+    transform: rotate(-5deg);
+    z-index: 75;
+}
+
+section>div>span>h3{
+    background-color: rgb(201, 131, 233);
+    border: 3px dotted #1c6ea488;
+    border-radius: 40px 0px 40px 0px;
+    padding: 5px 15px;
+    box-shadow: 6px 8px 15px 0 rgb(255, 255, 255);
+    font-family: 'Rubik Moonrocks', cursive;
+    transition: 1s;
+    letter-spacing: 2px;
+} 
+
+section>img{
+    border-radius: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-self: center;
+    max-width: 80%;
+    opacity: 0.7;
+    clip-path: polygon(0 0, 75% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%);
+    margin-top: -20px;
+    transform: rotate(5deg);
+}
+
+section>img:hover{
+    transition: 2s;
+    transform: rotate(19deg);
+}
+
+section>img:hover{
+    transition: 1s;
+    opacity: 1;
+}
+
+section>p{
+    color:white;
+    z-index: 100;
+    margin-top: -10px;
+    padding: 0px 10px;
+    text-shadow: 2px 4px 6px rgb(0, 0, 0), 4px -5px 6px rgb(0, 0, 0);
+}
+
+section>button>a{
+    font-family: 'Rubik Moonrocks', cursive;
+    text-decoration: none;
+}
+
+section>button{
+    background-color: rgb(201, 131, 233);
+    margin-top: -15px;
+    margin-bottom: 20px;
+    z-index: 150;
+    opacity: 0.6;
+    align-self: center;
+    font-size: x-large;
+    border-radius: 15%;
+    padding: 0px 15px;
+    margin-bottom: 50px;
+    color:black;
+    box-shadow: 6px 8px 35px 0 rgb(255, 255, 255);
+}
+
+section>button:hover{
+    transition: 0.8s;
+    opacity: 1;
+    transform: rotate(6deg);
+    letter-spacing: 7px;
+    background-color: rgba(51, 37, 37, 0.849);
+}
+
+section>button>a:hover{
+    transition: 1s;
+    color:white;
+}
+
+ul{
+    color: white;
+    text-shadow: rgb(255, 255, 255) 5px 2px 10px;
+}
+
+footer{
+    transition: 2s;
+    font-weight: bold;
+    display: flex;
+    letter-spacing: 6px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(35, 30, 41, 0.301);
+    height: 50px;
+    margin: 35px 20px;;
+    border-radius: 15%;
+    box-shadow: 6px 8px 35px 0 rgb(255, 255, 255);
+}
+
+img{
+    transition: 1s;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
+img:hover{
+    transition: 3s;
+    filter: brightness(78%) contrast(138%);
+-webkit-filter: brightness(78%) contrast(138%);
+-moz-filter: brightness(78%) contrast(138%);
+}
+
+.mortalUl{
+    transition: 2s;
+    list-style-image: url(../img/logoMortal-2.png);
+}
+
+.marioUl{
+    transition: 2s;
+    list-style-image: url(../img/estrellitaMarioV2.png);
+}
+
+.mortalUl:hover{
+    transition: 2s;
+    transform: rotate(-3deg);
+}
+
+.marioUl:hover{
+    transition: 2s;
+    transform: rotate(-3deg);
+}
+
+.img{
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    transition: 1s;
+}
+
+.img:hover{
+    transition: 3s;
+    transform: rotate(3deg);
+    opacity: 0.7;
+}
+
+.img2{
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    transition: 2s;
+}
+
+.img2:hover{
+    transition: 3s;
+    transform: rotate(-3deg);
+    opacity: 0.9;
+}
+
+.img3:hover{
+    transition: 3s;
+    transform: rotate(2deg);
+    opacity: 0.6;
+}
+
+.img4{
+    transition: 2s;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.img4:hover{
+    transition: 3s;
+    transform: rotate(360deg);
+    opacity: 0.8;
+}
+
+h1>a{
+    font-family: 'Rubik Moonrocks', cursive;
+    text-decoration: none;
+}
+
+h1:hover{
+    transition: 2s;
+    letter-spacing: 5px;
+    transform: rotate(6deg);
+}
+
+h1>a:hover{
+    transition: 3s;
+    color: rgb(176, 57, 206);
+    margin-right: 50px;
+}
+
+article>h2:hover{
+    transition: 2s;
+    color:rgb(129, 30, 129);
+    transform: rotate(-20deg);
+}
+
+footer:hover{
+    transition: 3s;
+    transform: rotateY(-60deg);
+    font-size: xx-large;
+}
